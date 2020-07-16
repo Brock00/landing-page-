@@ -1,2 +1,3 @@
 # landing-page-
-projeto 01- criação de uma landing page
+projeto 01 - criação de landing page
+Editor usado - Visual Studio Code
