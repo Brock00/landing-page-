@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tela{
+    height: 927px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+html,body{
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #181E31;
+}
+
+.header img{
+    margin: 3% 40%;
+    width: 20%;
+}
+
+.banner{
+    
+    width: 100%;
+    height: 557px;
+    background-image:url('../images/business-meeting-over-coffee\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner > .tela{
+    height: 100%;
+    text-align: right;
+
+}
+
+.form{
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    float: right;
+    display: inline-block;
+}
