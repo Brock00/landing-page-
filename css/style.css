@@ -16,9 +16,10 @@ html,body{
     height: 100%;
 }
 .header{
+    min-width: 1300px;
     width: 100%;
-    height: 100px;
-    background-color: #181E31;
+    height: 60px;
+    background-color:  #294051;
 }
 
 .header h1{
@@ -28,7 +29,7 @@ html,body{
 }
 
 .banner{
-    
+    min-width: 1300px;
     width: 100%;
     height: 557px;
     background-image:url('../images/business-meeting-over-coffee\ \(1\).jpg');
@@ -50,8 +51,8 @@ html,body{
     display: inline-block;
     position: relative;
     top: -30px;
-    border:5px solid white;
-    background-color: #181E31;
+    border:3px groove rgb(0, 0, 0);
+    background-color: rgba(33, 35, 67, 0.9);
     padding:10px;
     
     
@@ -109,11 +110,12 @@ form input[type=button]{
 
 .apresentação{
     float: left;
-    width: 619px;
-    height: 400px;
-    background-color: rgba(33, 35, 67, 0.7);
-    margin-top: 72px;
-    padding: 60px;
+    width: 500px;
+    height: 450px;
+    background-color: rgba(33, 35, 67, 0.9);
+    margin-top: 60px;
+    padding: 50px;
+    border:3px groove black;
 }
 
 .apresentação ul li{
@@ -133,15 +135,17 @@ form input[type=button]{
 .apresentação h2{
     margin-top: 30px;
     text-align: center;
-    color:rgb(231, 228, 29);
+    color:;
 }
 
 .segunda{
+    min-width: 1300px;
     padding:70px 0px ;
-    background-color: #00B6F1;
-    color: black;
+    background-color: #294051;
+    color: WHITE;
     text-align: center;
     height: 300px;
+    border:3px groove black;
     
 }
 
@@ -163,5 +167,34 @@ form input[type=button]{
     left: 50%;
     margin-left: -20px;
     
+    
+}
+
+
+.section{
+    margin-top: 45px;
+    text-align: center;
+    color: #294051;
+}
+
+.photos-section{
+   padding: 90px;
+}
+
+
+
+.icone-fotos {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    
+}
+
+.icone-fotos p{
+   font-size: 30px; 
+   text-align: justify;
+   text-align: center;
+   display: inline-block;
+   padding: 3% 10%;
     
 }
