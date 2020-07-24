@@ -18,20 +18,21 @@ html,body{
 .header{
     min-width: 1300px;
     width: 100%;
-    height: 60px;
+    height: 10%;
     background-color:  #294051;
+    border-bottom: 3px solid black;
 }
 
 .header h1{
     font-size: 25px;
-    padding: 30px;
+    padding: 1%;
     color: rgba(255, 255, 255, 0.973);
 }
 
 .banner{
     min-width: 1300px;
     width: 100%;
-    height: 557px;
+    height: 100%;
     background-image:url('../images/business-meeting-over-coffee\ \(1\).jpg');
     background-size: cover;
     background-position: center;
@@ -51,7 +52,7 @@ html,body{
     display: inline-block;
     position: relative;
     top: -30px;
-    border:3px groove rgb(0, 0, 0);
+    
     background-color: rgba(33, 35, 67, 0.9);
     padding:10px;
     
@@ -197,4 +198,13 @@ form input[type=button]{
    display: inline-block;
    padding: 3% 10%;
     
+}
+
+
+.direitos{
+    padding:5% 0% ;
+    clear: both;
+    border-top: 1px solid black;
+    font-size: 30px;
+    text-align: center;
 }
