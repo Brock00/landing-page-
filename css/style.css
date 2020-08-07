@@ -15,9 +15,17 @@
 html,body{
     height: 100%;
 }
-.header{
-    min-width: 1300px;
+
+.center{
+    max-width: 1280px;
     width: 100%;
+    margin: 0 auto;
+    
+
+}
+.header{
+    width: 100%;
+    padding:0 2%;
     height: 10%;
     background-color:  #294051;
     border-bottom: 3px solid black;
@@ -30,7 +38,7 @@ html,body{
 }
 
 .banner{
-    min-width: 1300px;
+    padding: 0 2%;
     width: 100%;
     height: 100%;
     background-image:url('../images/business-meeting-over-coffee\ \(1\).jpg');
@@ -41,7 +49,8 @@ html,body{
 .banner > .tela{
     height: 100%;
     text-align: right;
-
+    
+   
 }
 
 .form{
@@ -136,12 +145,11 @@ form input[type=button]{
 .apresentação h2{
     margin-top: 30px;
     text-align: center;
-    color:;
+    color:white;
 }
 
 .segunda{
-    min-width: 1300px;
-    padding:70px 0px ;
+    padding:60px 2% ;
     background-color: #294051;
     color: WHITE;
     text-align: center;
@@ -173,33 +181,40 @@ form input[type=button]{
 
 
 .section{
+    padding: 90px 2%;
     margin-top: 45px;
     text-align: center;
     color: #294051;
 }
 
 .photos-section{
-   padding: 90px;
+   padding: 90px 2%;
 }
 
 
 
 .icone-fotos {
+    font-size: 80%;
     float: left;
     width: 33.333%;
     text-align: center;
+    padding: 0px 1%;
     
 }
 
 .icone-fotos p{
-   font-size: 30px; 
+   font-size: 20px; 
    text-align: justify;
    text-align: center;
    display: inline-block;
-   padding: 3% 10%;
+   padding: 10px 1%;
     
 }
 
+.text-icone h1{
+    font-size: 160%;
+    
+}
 
 .direitos{
     padding:5% 0% ;
