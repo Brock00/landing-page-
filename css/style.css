@@ -99,6 +99,13 @@ h2{
     border: 1px solid black;
     margin-top: 7px;
     border-radius: 5px;
+}
+.perguntas input[type=number]{
+    width: 344px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 7px;
+    border-radius: 5px;
     
 }
 
