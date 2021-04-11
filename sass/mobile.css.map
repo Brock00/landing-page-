@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAChC,AACI,IADA,CACA,aAAa,EADjB,IAAI,CACc,IAAI,CAAA;IACd,OAAO,EAAC,IAAI;GACf;EAGL,AAAA,OAAO,CAAA;IACH,OAAO,EAAE,IAAI;GAKhB;EAND,AAEG,OAFI,CAEJ,CAAC,CAAA;IACC,WAAW,EAAE,IAAI;IACjB,UAAU,EAAE,IAAI;GACjB",
+    "sources": [
+        "mobile.scss"
+    ],
+    "names": [],
+    "file": "mobile.css"
+}

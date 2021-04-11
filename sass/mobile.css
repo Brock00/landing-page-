@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@media screen and (max-width: 420px) {
+  main #apresentação, main form {
+    padding: 15px;
+  }
+  section {
+    padding: 15px;
+  }
+  section p {
+    line-height: 20px;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
